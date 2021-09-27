@@ -53,4 +53,4 @@ jobs:
           app-name: 'khushiscakehousedemo'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C67DBD499ACD40C7A80945F729FB2016 }}
-          package: .
+          package: ./dist/hello-world-app
